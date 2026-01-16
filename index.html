@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mashfiqul islam
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="portfolio">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">Portfolio</div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i> Projects</a></li>
+                    <li><a href="#achievements" class="nav-link"><i class="fas fa-trophy"></i> Achievements</a></li>
+                    <li><a href="#hobbies" class="nav-link"><i class="fas fa-heart"></i> Hobbies</a></li>
+                    <li><a href="#publications" class="nav-link"><i class="fas fa-book"></i> Publications</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text">
+                        <h1 class="home-title">Hi, I'm <span class="highlight">Mashfiqul Islam</span></h1>
+                        <p class="home-subtitle">Full Stack Developer & Designer</p>
+                        <p class="home-description">
+                            I create beautiful and functional web experiences. Passionate about clean code, 
+                            user experience, and innovative solutions.
+                        </p>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+
+                        <button class="btn-primary" id="downloadCV">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </button>
+                    </div>
+
+                    <div class="home-image">
+                        <img src="/image/mashfi.jpeg" height="450" width="450" alt="photo" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a passionate Full Stack Developer with over 5 years of experience in building 
+                        web applications. I specialize in React, Node.js, and modern web technologies. 
+                        My goal is to create impactful digital experiences that solve real-world problems.
+                    </p>
+                    <p class="about-text">
+                        I believe in continuous learning and staying up-to-date with the latest technologies. 
+                        When I'm not coding, you can find me contributing to open-source projects, writing 
+                        technical articles, or exploring new frameworks.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">TypeScript</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">MongoDB</div>
+                        <div class="skill-tag">PostgreSQL</div>
+                        <div class="skill-tag">AWS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Master of Computer Science</h3>
+                            <p class="timeline-date">2018 - 2020</p>
+                            <p class="timeline-location">Stanford University</p>
+                            <p class="timeline-description">
+                                Specialized in Artificial Intelligence and Machine Learning. 
+                                GPA: 3.9/4.0
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Software Engineering</h3>
+                            <p class="timeline-date">2014 - 2018</p>
+                            <p class="timeline-location">MIT</p>
+                            <p class="timeline-description">
+                                Focus on software development and system design. 
+                                Dean's List all semesters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management tool with real-time updates, team collaboration, and Kanban boards.</p>
+                        <div class="project-tags">
+                            <span>TypeScript</span>
+                            <span>Express</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI Content Generator</h3>
+                        <p>Machine learning powered content generation tool using natural language processing.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <h3>Weather Dashboard</h3>
+                        <p>Interactive weather dashboard with forecasts, historical data, and beautiful visualizations.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements-section">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <i class="fas fa-trophy achievement-icon"></i>
+                        <h3>Best Developer Award 2023</h3>
+                        <p>Recognized for outstanding contribution to company projects and innovation.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i class="fas fa-medal achievement-icon"></i>
+                        <h3>Hackathon Winner</h3>
+                        <p>First place at TechCrunch Disrupt 2022 for developing an innovative solution.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i class="fas fa-code-branch achievement-icon"></i>
+                        <h3>Open Source Contributor</h3>
+                        <p>Over 500 contributions to popular open-source projects on GitHub.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i class="fas fa-certificate achievement-icon"></i>
+                        <h3>Certified AWS Solutions Architect</h3>
+                        <p>Professional certification in designing distributed systems on AWS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section hobbies-section">
+            <div class="container">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <i class="fas fa-camera"></i>
+                        <h3>Photography</h3>
+                        <p>Capturing moments and landscapes during my travels around the world.</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <i class="fas fa-book-reader"></i>
+                        <h3>Reading</h3>
+                        <p>Passionate about sci-fi novels and technical books on software architecture.</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Gaming</h3>
+                        <p>Enjoy strategy games and occasionally participate in gaming tournaments.</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <i class="fas fa-hiking"></i>
+                        <h3>Hiking</h3>
+                        <p>Love exploring nature trails and mountain hiking on weekends.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section publications-section">
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <i class="fas fa-file-alt publication-icon"></i>
+                        <div class="publication-content">
+                            <h3>Modern Web Development Practices</h3>
+                            <p class="publication-meta">Published in TechMag • December 2023</p>
+                            <p>An in-depth guide to modern web development patterns and best practices.</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <i class="fas fa-file-alt publication-icon"></i>
+                        <div class="publication-content">
+                            <h3>Scalable Microservices Architecture</h3>
+                            <p class="publication-meta">Published in DevOps Weekly • September 2023</p>
+                            <p>Exploring design patterns for building scalable microservices systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <i class="fas fa-file-alt publication-icon"></i>
+                        <div class="publication-content">
+                            <h3>Machine Learning in Production</h3>
+                            <p class="publication-meta">Published in AI Journal • June 2023</p>
+                            <p>Best practices for deploying and maintaining ML models in production.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>mashfi@gmail.com</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-phone"></i>
+                                <span>01581856810</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bakolia ctg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Your name"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="mashfi@gmail.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                required
+                                placeholder="What is this about?"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                required
+                                rows="5"
+                                placeholder="Your message here..."
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Mashfiqul Islam. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
